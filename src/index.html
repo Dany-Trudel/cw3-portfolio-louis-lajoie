@@ -1,84 +1,105 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Louis Lajoie</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sarabun:wght@700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
 
-<header class="header-principal">
-    <div class="wrapper">
-        <img src="images/svg/logo.svg" alt="logo">
-        <h2>Louis Lajoie</h2>
-        <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Réalisations</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+<header class="header-page">
+    <div class="wrapper flex">
+        <div class="logo">
+            <h2>
+                 <img src="images/svg/logo.svg" alt="logo">
+                    Louis Lajoie
+            </h2>
+        </div>
+        <nav class="nav-princ">
+             <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Réalisations</a></li>
+                <li><a href="#">Contact</a></li>
+             </ul>
+        </nav>
     </div>
 </header>
 
 <section class="hero">
-    <div class="wrapper">
-
+    <div class="wrapper flex">
+        <div>
         <h4>Intégrateur web</h4>
         <h1>Louis Lajoie</h1>
 
         <p>Vous cherche un spécialiste en développement web, en animation de page web et en référencement, vous l’avez trouvé!</p>
 
-        <a href="#">Voir mes réalisations</a>
-
+        <a href="#" class="btn btn-medium">Voir mes réalisations</a>
+    </div>
+        <img class="photo" src="images/louis-lajoie.png" alt="Photo de Louis">
     </div>
 </section>
 
-<section class="creation">
-    <div class="wrapper">
-        <div class="categorie">
+<section class="wrapper creation">
+
+        <article>
+            <header>
             <img src="images/svg/creation.svg" alt="tv">
+            </header>
             <h3>Création de sites web</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ut!</p>
-        </div>
+        </article>
 
-        <div class="categorie">
+        <article>
+            <header>
             <img src="images/svg/conception.svg" alt="écrou">
+            </header>
             <h3>Conception graphique</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam praesentium quos reprehenderit soluta voluptatibus.</p>
-        </div>
+        </article>
 
-        <div class="categorie">
+    <article>
+        <header>
             <img src="images/svg/photo.svg" alt="photo">
+        </header>
             <h3>Photographie</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis incidunt minus sequi totam. Autem!</p>
-        </div>
+    </article>
 
-        <div class="categorie">
+        <article>
+            <header>
             <img src="images/svg/reference.svg" alt="graphique">
+            </header>
             <h3>Référencementb</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta fugiat magni qui.</p>
-        </div>
+        </article>
 
-        <div class="categorie">
+            <article>
+                <header>
             <img src="images/svg/media.svg" alt="media">
+                </header>
             <h3>Médias sociaux</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate itaque odio optio porro vitae? Provident, quam?</p>
-        </div>
+            </article>
 
-        <div class="categorie">
+                <article>
+                    <header>
             <img src="images/svg/illustration.svg" alt="crayon">
+                    </header>
             <h3>Illustrations</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo?</p>
-        </div>
+                </article>
 
-    </div>
 </section>
 
-<footer class="footer-principal">
-     <div class="copyright">
+<footer>
+     <div class="wrapper">
          <p>Expert TIM ©. Les icônes sont récupérés sur le site icomoon.io</p>
      </div>
 </footer>
